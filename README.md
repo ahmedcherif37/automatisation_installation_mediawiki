@@ -1,8 +1,8 @@
 # automatisation_installation_mediawiki avec Ansible
 création de 5 rôles 
 1.	Le rôle apache :
- `* un fichier tasks/main.yml contient les actions pour installer Apache, un appel à un fichier de configuration pour installer PHP et une notification pour redémarrer Apache ; `
- `* un fichier handler/main.yml contient les actions pour redémarrer le service Apache. `
+ * un fichier tasks/main.yml contient les actions pour installer Apache, un appel à un fichier de configuration pour installer PHP et une notification pour redémarrer Apache ; 
+ * un fichier handler/main.yml contient les actions pour redémarrer le service Apache. 
 2.	Le rôle mariadb :
  `*	un fichier tasks/main.yml contient les actions pour installer MariaDB. `
 3.	Le rôle commun de MediaWiki :
