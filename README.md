@@ -1,0 +1,1 @@
+# automatisation_installation_mediawiki
